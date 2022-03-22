@@ -5,17 +5,32 @@
 
     <item
         android:id="@+id/search"
-        android:icon="@drawable/ic_baseline_tour_24"
-        android:title="a"
-        android:contentDescription="a"
+        android:icon="@drawable/ic_baseline_business_24"
+        android:title="Business"
+        android:contentDescription="Business"
         app:showAsAction="ifRoom"
         />
 
     <item
         android:id="@+id/more"
-        android:title="a"
+        android:title="Education"
         android:icon="@drawable/ic_baseline_local_library_24"
-        android:contentDescription="a"
+        android:contentDescription="Education"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/tourism"
+        android:title="Tourism"
+        android:icon="@drawable/ic_baseline_tour_24"
+        android:contentDescription="Education"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/jobs"
+        android:title="Jobs"
+        android:icon="@drawable/ic_baseline_next_plan_24"
+        android:contentDescription="Jobs"
         app:showAsAction="ifRoom"
         />
 

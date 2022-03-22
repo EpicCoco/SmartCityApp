@@ -7,7 +7,9 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable ic_baseline_business_24
 drawable ic_baseline_local_library_24
+drawable ic_baseline_next_plan_24
 drawable ic_baseline_tour_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -17,11 +19,13 @@ id button
 id button2
 id button3
 id flFragment
+id jobs
 id more
 id search
 id setting
 id t
 id textView
+id tourism
 layout activity_main
 layout activity_main2
 layout bottomnav

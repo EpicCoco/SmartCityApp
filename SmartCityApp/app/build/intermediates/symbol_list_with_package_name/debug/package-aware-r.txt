@@ -2455,7 +2455,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_baseline_business_24
 drawable ic_baseline_local_library_24
+drawable ic_baseline_next_plan_24
 drawable ic_baseline_tour_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2747,6 +2749,7 @@ id item2
 id item3
 id item4
 id item_touch_helper_previous_elevation
+id jobs
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -2975,6 +2978,7 @@ id toggle
 id top
 id topPanel
 id touch_outside
+id tourism
 id transitionToEnd
 id transitionToStart
 id transition_current_scene
