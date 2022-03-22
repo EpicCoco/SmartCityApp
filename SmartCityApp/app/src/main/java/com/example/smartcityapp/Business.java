@@ -71,33 +71,34 @@ public class Business extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View inf = inflater.inflate(R.layout.fragment_business, container, false);
-        TextView tv = (TextView) inf.findViewById(R.id.t);
-        InputStream is = getResources().openRawResource(R.raw.jobs);
-        BufferedReader br = new BufferedReader(new InputStreamReader(is));
+        TextView tv = (TextView) inf.findViewById(R.id.t); // Get the TextView.
+        InputStream is = getResources().openRawResource(R.raw.jobs); // Get the csv.
+        BufferedReader br = new BufferedReader(new InputStreamReader(is)); //
         try{
-            List<String[]> resultList = new ArrayList<String[]>();
+            List<String[]> resultList = new ArrayList<String[]>(); // Create an ArrayList to contain the rows.
             String c = "";
             //tv.append(br.readLine());
             while ((c = br.readLine()) != null) {
-                String[] row = c.split(",");
-                resultList.add(row);
+                String[] row = c.split(","); // Separate the values by a comma.
+                resultList.add(row); // Add the row to the Arraylist.
             }
-            Map<Integer, String> a = new HashMap<Integer, String>();
+            Map<Integer, String> a = new HashMap<Integer, String>(); // Create a map
             LinkedHashMap<Integer, String> b = new LinkedHashMap<>();
 
             for (int i = 0; i < resultList.size(); i++) {
-                a.put(i,resultList.get(i)[3]);
+                a.put(i,resultList.get(i)[3]); // Get the fastest growing jobs.
             }
+
             a.entrySet()
                     .stream()
                     .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
-                    .forEachOrdered(x -> b.put(x.getKey(), x.getValue()));
+                    .forEachOrdered(x -> b.put(x.getKey(), x.getValue())); // Sort the values by the value selected.
             //tv.append(b.toString());
             Map.Entry<Integer, String> actualValue = b.entrySet()
                     .stream()
                     .skip(2).findFirst()
-                    .get();
-            tv.append(resultList.get(actualValue.getKey())[0]);
+                    .get(); // Filter out the non-numbers
+            tv.append(resultList.get(actualValue.getKey())[0]); // Get the fastest growing industry.
 
 
 

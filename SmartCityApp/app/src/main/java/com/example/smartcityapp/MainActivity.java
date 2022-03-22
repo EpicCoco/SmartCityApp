@@ -20,6 +20,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -62,7 +63,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+
     private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
+        /**
+         * Selects the fragment that the user should see when they click a button on the bottom.
+         * @param item What tab the user selects.
+         * @return the item that should be shown
+         */
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             // By using switch we can easily get
@@ -70,10 +78,10 @@ public class MainActivity extends AppCompatActivity {
             // by using there id.
             Fragment selectedFragment = new Business();
             switch (item.getItemId()) {
-                case R.id.search:
+                case R.id.search: // business module
                     selectedFragment = new Business();
                     break;
-                case R.id.more:
+                case R.id.more: // tourism module
                     selectedFragment = new Tourism();
                     break;
             }

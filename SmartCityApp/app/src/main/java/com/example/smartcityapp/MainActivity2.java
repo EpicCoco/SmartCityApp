@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * Login page.
+ */
 public class MainActivity2 extends AppCompatActivity {
 
     @Override
@@ -15,7 +18,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void login(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        Intent intent = new Intent(this, /** Activity to go to.*/ MainActivity.class);
+        startActivity(intent); // Switch to that tab.
     }
 }
