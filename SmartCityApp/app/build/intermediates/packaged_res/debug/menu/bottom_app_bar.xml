@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_business_24"
+        android:title="Business"
+        android:contentDescription="Business"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/more"
+        android:title="Education"
+        android:icon="@drawable/ic_baseline_local_library_24"
+        android:contentDescription="Education"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/tourism"
+        android:title="Tourism"
+        android:icon="@drawable/ic_baseline_tour_24"
+        android:contentDescription="Education"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/jobs"
+        android:title="Jobs"
+        android:icon="@drawable/ic_baseline_next_plan_24"
+        android:contentDescription="Jobs"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
