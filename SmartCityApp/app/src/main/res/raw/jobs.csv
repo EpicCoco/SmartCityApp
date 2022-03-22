@@ -1,0 +1,48 @@
+Industry,Empl,Empl (4Q Mov Avg),5 Year % Change in Avg Ann Wages per Worker,LQ (4Q Mov Avg),Productivity,NAICS
+string,number,number,number,number,number,number
+Manufacturing,5006,4977,-0.04,0.88,362831,31
+Poultry Processing,1320,1333,0.07,12.13,386805,311615
+Power, Distribution, and Specialty Transformer Manufacturing,454,444,-0.12,37.15,296149,335311
+Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing,352,348,-0.09,8.52,300282,333415
+Motor and Generator Manufacturing,235,253,-0.08,15.63,250139,335312
+Mineral Wool Manufacturing,195,160,0.13,21.03,397475,327993
+All Other Plastics Product Manufacturing,191,188,0.14,1.4,367544,326199
+Breweries,162,158,0,4.35,505315,312120
+Medicinal and Botanical Manufacturing,159,170,0.3,10.25,500737,325411
+Soft Drink Manufacturing,114,114,-0.22,3.15,446295,312111
+Artificial and Synthetic Fibers and Filaments Manufacturing,113,129,-0.33,11.83,1145455,325220
+Motor Vehicle Gasoline Engine and Engine Parts Manufacturing,109,103,-0.13,4.07,463164,336310
+Ball and Roller Bearing Manufacturing,105,100,0.13,10.47,152627,332991
+Other Aircraft Parts and Auxiliary Equipment Manufacturing,99,100,-0.07,2.11,421714,336413
+All Other Miscellaneous Manufacturing,94,70,0.49,2.18,156176,339999
+Blind and Shade Manufacturing,82,78,0.01,15.11,315906,337920
+Commercial Screen Printing,71,72,0.28,2.26,246325,323113
+Sheet Metal Work Manufacturing,64,59,0.06,1.16,204953,332322
+Commercial Printing (except Screen and Books),64,71,0.79,0.55,144079,323111
+Spring Manufacturing,63,60,0.24,8.27,165314,332613
+Packaging Machinery Manufacturing,53,55,0.16,5.35,345483,333993
+Sign Manufacturing,53,52,0.26,1.27,189570,339950
+Soap and Other Detergent Manufacturing,52,60,-0.06,4.56,627771,325611
+Ready-Mix Concrete Manufacturing,49,53,0.3,1.18,277651,327320
+Textile and Fabric Finishing Mills,47,49,-0.05,5.49,213491,313310
+Paint and Coating Manufacturing,46,46,0,2.35,577923,325510
+Other Paperboard Container Manufacturing,39,36,0,3.23,244615,322219
+Polish and Other Sanitation Good Manufacturing,37,27,11.47,2.28,403840,325612
+Aircraft Engine and Engine Parts Manufacturing,35,17,0,0.47,322017,336412
+Ornamental and Architectural Metal Work Manufacturing,34,35,0.36,1.76,222702,332323
+Custom Architectural Woodwork and Millwork Manufacturing,32,32,-0.18,2.8,214105,337212
+Fabricated Structural Metal Manufacturing,32,31,0.39,0.75,221514,332312
+Aircraft Manufacturing,32,35,0,0.33,320847,336411
+Switchgear and Switchboard Apparatus Manufacturing,31,30,-0.11,1.96,250186,335313
+Machine Shops,24,23,0.32,0.18,203383,332710
+Plastics Material and Resin Manufacturing,24,21,0,0.77,908603,325211
+Biological Product (except Diagnostic) Manufacturing,23,25,0,1.38,522157,325414
+Wood Kitchen Cabinet and Countertop Manufacturing,23,24,0.09,0.43,106340,337110
+Nonupholstered Wood Household Furniture Manufacturing,20,20,0.01,1.47,137351,337122
+Dental Laboratories,20,17,0.31,0.91,287436,339116
+Concrete Block and Brick Manufacturing,19,18,0,2.17,213062,327331
+Retail Bakeries,19,21,0.88,0.52,135353,311811
+Unlaminated Plastics Profile Shape Manufacturing,17,18,0.03,1.74,272471,326121
+Commercial Bakeries,16,20,0.11,0.33,207867,311812
+All Other Rubber Product Manufacturing,13,9,-0.01,0.81,246239,326299
+Coffee and Tea Manufacturing,12,10,0.31,0.83,431607,311920

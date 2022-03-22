@@ -1,12 +1,18 @@
 package com.example.smartcityapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 import com.android.volley.*;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.material.badge.BadgeDrawable;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.*;
 
@@ -20,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        BottomNavigationView bottomNav = findViewById(R.id.bottomNavigationView);
+        bottomNav.setOnNavigationItemSelectedListener(navListener);
         TextView t = (TextView) findViewById(R.id.t); // The textview
         Button button = (Button) findViewById(R.id.button); // The button
         RequestQueue q = Volley.newRequestQueue(this); // RequestQueue to make the API work
@@ -54,5 +62,29 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            // By using switch we can easily get
+            // the selected fragment
+            // by using there id.
+            Fragment selectedFragment = new Business();
+            switch (item.getItemId()) {
+                case R.id.search:
+                    selectedFragment = new Business();
+                    break;
+                case R.id.more:
+                    selectedFragment = new Tourism();
+                    break;
+            }
+            // It will help to replace the
+            // one fragment to other.
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.flFragment, selectedFragment)
+                    .commit();
+            return true;
+        }
+    };
 
 }
