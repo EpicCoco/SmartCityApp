@@ -56,6 +56,11 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.tourism: // tourism module
                     selectedFragment = new Tourism();
                     break;
+                case R.id.more:
+                    selectedFragment = new Education(); // Education module
+                    break;
+                case R.id.jobs:
+                    selectedFragment = new Jobs();
             }
             // It will help to replace the
             // one fragment to other.
