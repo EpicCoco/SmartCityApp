@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     .replace(R.id.flFragment, selectedFragment)
                     .commit();
             return true;
+            //test
         }
     };
 
