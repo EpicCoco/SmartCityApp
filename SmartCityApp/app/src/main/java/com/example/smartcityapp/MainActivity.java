@@ -29,39 +29,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         BottomNavigationView bottomNav = findViewById(R.id.bottomNavigationView);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
-        TextView t = (TextView) findViewById(R.id.t); // The textview
-        Button button = (Button) findViewById(R.id.button); // The button
-        RequestQueue q = Volley.newRequestQueue(this); // RequestQueue to make the API work
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                String url = "https://api.opentripmap.com/0.1/en/places/radius?radius=2000&lon=-83.357604&lat=33.9519&apikey=5ae2e3f221c38a28845f05b634ee2da680014417a5342d1496cdc86a";
-                JsonObjectRequest r = new JsonObjectRequest(Request.Method.GET,url,null,
-                        new Response.Listener<JSONObject>() {
-                            /**
-                             * This method gets the names of the places that are in the specified city.
-                             * @param r The JSON object created by the API.
-                             */
-                    public void onResponse(JSONObject r) {
-                        try {
-                            JSONArray j = r.getJSONArray("features");
-                            for (int i = 0; i < j.length(); i++) {
-                                JSONObject a = j.getJSONObject(i); // get the details of each place
-                                JSONObject b = a.getJSONObject("properties"); // get the properties
-                                String c = b.getString("name"); // get the name of the location
-                                t.append(c + "\n"); // make the names appear
-                            }
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                        }, new Response.ErrorListener() {
-                    public void onErrorResponse(VolleyError e) {
-                        e.printStackTrace();
-                    }
-                });
-                q.add(r);
-            }
-        });
+
+        // as soon as the application opens the first
+        // fragment should be shown to the user
+        // in this case it is algorithm fragment
+        getSupportFragmentManager().beginTransaction().replace(R.id.flFragment, new Business()).commit();
     }
 
 
@@ -81,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.search: // business module
                     selectedFragment = new Business();
                     break;
-                case R.id.more: // tourism module
+                case R.id.tourism: // tourism module
                     selectedFragment = new Tourism();
                     break;
             }
