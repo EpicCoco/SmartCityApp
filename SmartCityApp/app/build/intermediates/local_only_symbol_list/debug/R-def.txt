@@ -18,8 +18,10 @@ id business
 id button
 id button2
 id button3
+id editTextTextPersonName
 id flFragment
 id jobs
+id jobsButton
 id more
 id search
 id setting
@@ -30,6 +32,8 @@ layout activity_main
 layout activity_main2
 layout bottomnav
 layout fragment_business
+layout fragment_education
+layout fragment_jobs
 layout fragment_tourism
 menu bottom_app_bar
 mipmap ic_launcher

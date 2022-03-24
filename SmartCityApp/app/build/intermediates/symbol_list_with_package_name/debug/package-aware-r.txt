@@ -2694,6 +2694,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextTextPersonName
 id edit_query
 id elastic
 id end
@@ -2750,6 +2751,7 @@ id item3
 id item4
 id item_touch_helper_previous_elevation
 id jobs
+id jobsButton
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3114,6 +3116,8 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_business
+layout fragment_education
+layout fragment_jobs
 layout fragment_tourism
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
