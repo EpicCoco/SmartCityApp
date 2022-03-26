@@ -18,10 +18,13 @@ id business
 id button
 id button2
 id button3
+id editTextTextEmailAddress
+id editTextTextPassword
 id editTextTextPersonName
 id flFragment
 id jobs
 id jobsButton
+id mapView2
 id more
 id search
 id setting
