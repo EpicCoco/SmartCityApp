@@ -28,6 +28,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.model.CameraPosition;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import org.json.JSONArray;
@@ -97,18 +98,43 @@ public class Tourism extends Fragment implements OnMapReadyCallback {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
+    public void onResume() {
+        super.onResume();
+        mapView.onResume();
+    }
 
+    @Override
     public void onMapReady(GoogleMap googleMap) {
-
-
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
+        LatLng sydney = new LatLng(33.9480, -83.3773);
         googleMap.addMarker(new MarkerOptions()
                 .position(sydney)
                 .title("Marker in Sydney"));
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(33.9519, -83.3576), 13));
+    }
+    @Override
+    public void onPause() {
+        mapView.onPause();
+        super.onPause();
     }
 
+    @Override
+    public void onDestroy() {
+        mapView.onDestroy();
+        super.onDestroy();
+    }
+
+    @Override
+    public void onLowMemory() {
+        super.onLowMemory();
+        mapView.onLowMemory();
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        mapView.onSaveInstanceState(outState);
+    }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -117,8 +143,10 @@ public class Tourism extends Fragment implements OnMapReadyCallback {
         TextView t = (TextView) inf.findViewById(R.id.t);
         mapView = (MapView) inf.findViewById(R.id.mapView2);
         mapView.onCreate(savedInstanceState);
+        mapView.getMapAsync(this);
 
-        mapView.onResume(); // needed to get the map to display immediately
+
+
 
         try {
             MapsInitializer.initialize(getActivity().getApplicationContext());
@@ -126,32 +154,7 @@ public class Tourism extends Fragment implements OnMapReadyCallback {
             e.printStackTrace();
         }
 
-        mapView.getMapAsync(new OnMapReadyCallback() {
-            @Override
-            public void onMapReady(GoogleMap mMap) {
 
-                // For showing a move to my location button
-                if (ActivityCompat.checkSelfPermission(getActivity().getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getActivity().getApplicationContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                    // TODO: Consider calling
-                    //    ActivityCompat#requestPermissions
-                    // here to request the missing permissions, and then overriding
-                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                    //                                          int[] grantResults)
-                    // to handle the case where the user grants the permission. See the documentation
-                    // for ActivityCompat#requestPermissions for more details.
-                    return;
-                }
-                mMap.setMyLocationEnabled(true);
-
-                // For dropping a marker at a point on the Map
-                LatLng sydney = new LatLng(-34, 151);
-                mMap.addMarker(new MarkerOptions().position(sydney).title("Marker Title").snippet("Marker Description"));
-
-                // For zooming automatically to the location of the marker
-                CameraPosition cameraPosition = new CameraPosition.Builder().target(sydney).zoom(12).build();
-                mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
-            }
-        });
          // The textview
         Button button = (Button) inf.findViewById(R.id.button); // The button
         RequestQueue queue = Volley.newRequestQueue(mContext);
@@ -168,6 +171,9 @@ public class Tourism extends Fragment implements OnMapReadyCallback {
                             for (int i = 0; i < b.length(); i++) {
                                 JSONObject c = b.getJSONObject(i);
                                 JSONObject d = c.getJSONObject("properties");
+                                JSONObject e = c.getJSONObject("geometry");
+                                JSONArray f = e.getJSONArray("coordinates");
+                                t.append(f.getString(0) + f.getString(1));
                                 t.append(d.getString("name"));
 
                             }
