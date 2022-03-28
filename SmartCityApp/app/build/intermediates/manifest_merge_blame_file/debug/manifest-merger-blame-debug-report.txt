@@ -22,136 +22,253 @@
 14    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
 14-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:8:5-105
 14-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:8:22-86
-15
-16    <!-- Include required permissions for Google Maps API to run. -->
-17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/4f43e2163119751277da6b410bc973e8/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
-17-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/4f43e2163119751277da6b410bc973e8/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
-18
-19    <uses-feature
-19-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/4f43e2163119751277da6b410bc973e8/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
-20        android:glEsVersion="0x00020000"
-20-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/4f43e2163119751277da6b410bc973e8/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
-21        android:required="true" />
-21-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/4f43e2163119751277da6b410bc973e8/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
-22
-23    <queries>
-23-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/4f43e2163119751277da6b410bc973e8/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
-24
-25        <!-- Needs to be explicitly declared on Android R+ -->
-26        <package android:name="com.google.android.apps.maps" />
-26-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/4f43e2163119751277da6b410bc973e8/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
-26-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/4f43e2163119751277da6b410bc973e8/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
-27    </queries>
-28
-29    <application
-29-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:10:5-46:19
-30        android:name="com.example.smartcityapp.VolleyApplication"
-30-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:11:9-42
-31        android:allowBackup="true"
-31-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:12:9-35
-32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-32-->[androidx.core:core:1.7.0] /Users/arjunkavungal/.gradle/caches/transforms-3/78c077d437fb427ab9708ed392f0c5bf/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
-33        android:debuggable="true"
-34        android:extractNativeLibs="false"
-35        android:icon="@mipmap/ic_launcher"
-35-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:13:9-43
-36        android:label="@string/app_name"
-36-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:14:9-41
-37        android:roundIcon="@mipmap/ic_launcher_round"
-37-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:15:9-54
-38        android:supportsRtl="true"
-38-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:16:9-35
-39        android:testOnly="true"
-40        android:theme="@style/Theme.SmartCityApp" >
-40-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:17:9-50
-41
-42        <!--
-43             TODO: Before you run your application, you need a Google Maps API key.
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+15-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:10:5-76
+15-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:24:5-68
+28-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:24:22-65
+29    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+29-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:25:5-79
+29-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:25:22-76
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+30-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:26:5-110
+30-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:26:22-107
+31
+32    <application
+32-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:10:5-46:19
+33        android:name="com.example.smartcityapp.VolleyApplication"
+33-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:11:9-42
+34        android:allowBackup="true"
+34-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:12:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.7.0] /Users/arjunkavungal/.gradle/caches/transforms-3/65c5a45dc0ebea764720990f61f025b1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:13:9-43
+39        android:label="@string/app_name"
+39-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:14:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:15:9-54
+41        android:supportsRtl="true"
+41-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:16:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.SmartCityApp" >
+43-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:17:9-50
 44
-45             To get one, follow the directions here:
-46
-47                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-48
-49             Once you have your API key (it starts with "AIza"), define a new property in your
-50             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-51             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-52        -->
-53        <meta-data
-53-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:30:9-32:71
-54            android:name="com.google.android.geo.API_KEY"
-54-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:31:13-58
-55            android:value="AIzaSyCYKIKheo-kxVkwr8Aq3468SbhIfXm_-C4" />
-55-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:32:13-68
-56
-57        <activity
-57-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:34:9-42:20
-58            android:name="com.example.smartcityapp.MainActivity2"
-58-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:35:13-42
-59            android:exported="true" >
-59-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:36:13-36
-60            <intent-filter>
-60-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:37:13-41:29
-61                <action android:name="android.intent.action.MAIN" />
-61-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:38:17-69
-61-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:38:25-66
-62
-63                <category android:name="android.intent.category.LAUNCHER" />
-63-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:40:17-77
-63-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:40:27-74
-64            </intent-filter>
-65        </activity>
-66        <activity
-66-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:43:9-45:48
-67            android:name="com.example.smartcityapp.MainActivity"
-67-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:44:13-41
-68            android:exported="true" />
-68-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:45:13-36
-69        <!-- Needs to be explicitly declared on P+ -->
-70        <uses-library
-70-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/4f43e2163119751277da6b410bc973e8/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
-71            android:name="org.apache.http.legacy"
-71-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/4f43e2163119751277da6b410bc973e8/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
-72            android:required="false" />
-72-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/4f43e2163119751277da6b410bc973e8/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
-73
-74        <activity
-74-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/1d1e972ca78dafbe8a01b09db8dac2a7/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-75-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/1d1e972ca78dafbe8a01b09db8dac2a7/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-76            android:exported="false"
-76-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/1d1e972ca78dafbe8a01b09db8dac2a7/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-77-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/1d1e972ca78dafbe8a01b09db8dac2a7/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-78
-79        <meta-data
-79-->[com.google.android.gms:play-services-basement:18.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/ed5bfe973c6ca2ccf644e3cfb17b7390/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
-80            android:name="com.google.android.gms.version"
-80-->[com.google.android.gms:play-services-basement:18.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/ed5bfe973c6ca2ccf644e3cfb17b7390/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
-81            android:value="@integer/google_play_services_version" />
-81-->[com.google.android.gms:play-services-basement:18.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/ed5bfe973c6ca2ccf644e3cfb17b7390/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+45        <!--
+46             TODO: Before you run your application, you need a Google Maps API key.
+47
+48             To get one, follow the directions here:
+49
+50                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+51
+52             Once you have your API key (it starts with "AIza"), define a new property in your
+53             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+54             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+55        -->
+56        <meta-data
+56-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:30:9-32:71
+57            android:name="com.google.android.geo.API_KEY"
+57-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:31:13-58
+58            android:value="AIzaSyCYKIKheo-kxVkwr8Aq3468SbhIfXm_-C4" />
+58-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:32:13-68
+59
+60        <activity
+60-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:34:9-42:20
+61            android:name="com.example.smartcityapp.MainActivity2"
+61-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:35:13-42
+62            android:exported="true" >
+62-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:36:13-36
+63            <intent-filter>
+63-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:37:13-41:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:38:17-69
+64-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:38:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:40:17-77
+66-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:40:27-74
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:43:9-45:48
+70            android:name="com.example.smartcityapp.MainActivity"
+70-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:44:13-41
+71            android:exported="true" />
+71-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:45:13-36
+72        <activity
+72-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:14:9-20:20
+73            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+73-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:15:13-91
+74            android:exported="false"
+74-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:16:13-37
+75            android:label="@string/places_autocomplete_label"
+75-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:17:13-62
+76            android:theme="@style/PlacesAutocompleteOverlay"
+76-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:18:13-61
+77            android:windowSoftInputMode="adjustResize" >
+77-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:19:13-55
+78        </activity> <!-- Needs to be explicitly declared on P+ -->
+79        <uses-library
+79-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+80            android:name="org.apache.http.legacy"
+80-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+81            android:required="false" />
+81-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
 82
-83        <provider
-83-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/3df8fd482ae380b0ca76a2a4a688b0ff/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-84            android:name="androidx.startup.InitializationProvider"
-84-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/3df8fd482ae380b0ca76a2a4a688b0ff/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-85            android:authorities="com.example.smartcityapp.androidx-startup"
-85-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/3df8fd482ae380b0ca76a2a4a688b0ff/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+83        <service
+83-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:28:9-34:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:29:13-84
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:35:13-43
 86            android:exported="false" >
-86-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/3df8fd482ae380b0ca76a2a4a688b0ff/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+86-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:30:13-37
 87            <meta-data
-87-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/3df8fd482ae380b0ca76a2a4a688b0ff/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-88-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/3df8fd482ae380b0ca76a2a4a688b0ff/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-89                android:value="androidx.startup" />
-89-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/3df8fd482ae380b0ca76a2a4a688b0ff/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+87-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:31:13-33:85
+88                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+88-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:32:17-139
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:33:17-82
 90            <meta-data
-90-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/7e536dd4f47f2e7e1becef1fd3f739ce/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-91-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/7e536dd4f47f2e7e1becef1fd3f739ce/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-92                android:value="androidx.startup" />
-92-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/7e536dd4f47f2e7e1becef1fd3f739ce/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-93        </provider>
-94    </application>
-95
-96</manifest>
+90-->[com.google.firebase:firebase-installations:17.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/a244c7a647fb8cbe2af4c1683430ff41/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+91                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+91-->[com.google.firebase:firebase-installations:17.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/a244c7a647fb8cbe2af4c1683430ff41/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-installations:17.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/a244c7a647fb8cbe2af4c1683430ff41/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+93        </service>
+94
+95        <provider
+95-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+96            android:name="com.google.firebase.provider.FirebaseInitProvider"
+96-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+97            android:authorities="com.example.smartcityapp.firebaseinitprovider"
+97-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+98            android:directBootAware="true"
+98-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+99            android:exported="false"
+99-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+100            android:initOrder="100" />
+100-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+106
+107        <receiver
+107-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:29:9-33:20
+108            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+108-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:30:13-85
+109            android:enabled="true"
+109-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:31:13-35
+110            android:exported="false" >
+110-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:32:13-37
+111        </receiver>
+112
+113        <service
+113-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:35:9-38:40
+114            android:name="com.google.android.gms.measurement.AppMeasurementService"
+114-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:36:13-84
+115            android:enabled="true"
+115-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:37:13-35
+116            android:exported="false" />
+116-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:38:13-37
+117        <service
+117-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:39:9-43:72
+118            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+118-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:40:13-87
+119            android:enabled="true"
+119-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:41:13-35
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:42:13-37
+121            android:permission="android.permission.BIND_JOB_SERVICE" />
+121-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:43:13-69
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:18.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5cb1c2f3a9956547f63a12c148d9c18e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:18.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5cb1c2f3a9956547f63a12c148d9c18e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:18.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5cb1c2f3a9956547f63a12c148d9c18e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+126
+127        <provider
+127-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+128            android:name="androidx.startup.InitializationProvider"
+128-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+129            android:authorities="com.example.smartcityapp.androidx-startup"
+129-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+130            android:exported="false" >
+130-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+131            <meta-data
+131-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+132                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+132-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+133                android:value="androidx.startup" />
+133-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+134            <meta-data
+134-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/d6fcd513de5e420bc60fb06646fc8f5d/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+135                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+135-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/d6fcd513de5e420bc60fb06646fc8f5d/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+136                android:value="androidx.startup" />
+136-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/d6fcd513de5e420bc60fb06646fc8f5d/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+137        </provider>
+138
+139        <service
+139-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:29:9-35:19
+140            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+140-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:30:13-103
+141            android:exported="false" >
+141-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:31:13-37
+142            <meta-data
+142-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:32:13-34:39
+143                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+143-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:33:17-94
+144                android:value="cct" />
+144-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:34:17-36
+145        </service>
+146        <service
+146-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:26:9-30:19
+147            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+147-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:27:13-117
+148            android:exported="false"
+148-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:28:13-37
+149            android:permission="android.permission.BIND_JOB_SERVICE" >
+149-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:29:13-69
+150        </service>
+151
+152        <receiver
+152-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:32:9-34:40
+153            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+153-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:33:13-132
+154            android:exported="false" />
+154-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:34:13-37
+155    </application>
+156
+157</manifest>

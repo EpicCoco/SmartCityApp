@@ -41,6 +41,8 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.util.LinkedList;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link Tourism#newInstance} factory method to
@@ -55,7 +57,9 @@ public class Tourism extends Fragment implements OnMapReadyCallback {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     private Context mContext;
-
+    LinkedList<String> names = new LinkedList<String>();
+    LinkedList<Double> latitude = new LinkedList<>();
+    LinkedList<Double> longitude = new LinkedList<>();
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -105,12 +109,47 @@ public class Tourism extends Fragment implements OnMapReadyCallback {
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
+        RequestQueue queue = Volley.newRequestQueue(mContext);
+
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(33.9480, -83.3773);
-        googleMap.addMarker(new MarkerOptions()
-                .position(sydney)
-                .title("Marker in Sydney"));
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(33.9519, -83.3576), 13));
+        StringRequest stringRequest = new StringRequest(
+                Request.Method.GET, "https://api.opentripmap.com/0.1/en/places/radius?radius=2000&lon=-83.357604&lat=33.9519&apikey=5ae2e3f221c38a28845f05b634ee2da680014417a5342d1496cdc86a", new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                try {
+                    JSONObject a = new JSONObject(response);
+                    JSONArray b = a.getJSONArray("features");
+                    Log.i("a",a.toString());
+                    for (int i = 0; i < b.length(); i++) {
+
+                        JSONObject c = b.getJSONObject(i);
+                        JSONObject d = c.getJSONObject("properties");
+                        JSONObject e = c.getJSONObject("geometry");
+                        JSONArray f = e.getJSONArray("coordinates");
+                        googleMap.addMarker(new MarkerOptions()
+                                    .position(new LatLng(f.getDouble(1), f.getDouble(0)))
+                                    .title(d.getString("name")));
+                        Log.i("a",d.getString("name"));
+                        Log.i("a", String.valueOf(f.getInt(1)));
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                //t.setText(response);
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+        queue.add(stringRequest);
+
+        //LatLng sydney = new LatLng(33.9480, -83.3773);
+        //googleMap.addMarker(new MarkerOptions()
+                //.position(sydney)
+                //.title("Marker in Sydney"));
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(33.958, -83.362), 14));
     }
     @Override
     public void onPause() {
