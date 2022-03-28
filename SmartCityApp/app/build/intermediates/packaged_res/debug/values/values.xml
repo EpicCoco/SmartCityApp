@@ -8,7 +8,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">SmartCityApp</string>
+    <string name="default_web_client_id" translatable="false">367104076540-2cnd5kiq7ojflrfri71b37vr4n5kbrsh.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">367104076540</string>
+    <string name="google_api_key" translatable="false">AIzaSyC5lBRKoUHEqzipM8QrjkVD9tQQfElKeJg</string>
+    <string name="google_app_id" translatable="false">1:367104076540:android:24a4fc7d8cac4c59a8c579</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC5lBRKoUHEqzipM8QrjkVD9tQQfElKeJg</string>
+    <string name="google_storage_bucket" translatable="false">smartcityapp-7aa36.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">smartcityapp-7aa36</string>
     <style name="Theme.SmartCityApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
