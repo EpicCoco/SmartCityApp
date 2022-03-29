@@ -4,11 +4,15 @@ package com.example.smartcityapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.smartcityapp.R;
@@ -28,14 +32,31 @@ public final class ActivityMainBinding implements ViewBinding {
   public final FrameLayout flFragment;
 
   @NonNull
+  public final EditText idEdtMessage;
+
+  @NonNull
+  public final ImageButton idIBSend;
+
+  @NonNull
+  public final LinearLayout idLLMessage;
+
+  @NonNull
+  public final RecyclerView idRVChats;
+
+  @NonNull
   public final TextView t;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull BottomNavigationView bottomNavigationView, @NonNull FrameLayout flFragment,
-      @NonNull TextView t) {
+      @NonNull EditText idEdtMessage, @NonNull ImageButton idIBSend,
+      @NonNull LinearLayout idLLMessage, @NonNull RecyclerView idRVChats, @NonNull TextView t) {
     this.rootView = rootView;
     this.bottomNavigationView = bottomNavigationView;
     this.flFragment = flFragment;
+    this.idEdtMessage = idEdtMessage;
+    this.idIBSend = idIBSend;
+    this.idLLMessage = idLLMessage;
+    this.idRVChats = idRVChats;
     this.t = t;
   }
 
@@ -78,6 +99,30 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.idEdtMessage;
+      EditText idEdtMessage = ViewBindings.findChildViewById(rootView, id);
+      if (idEdtMessage == null) {
+        break missingId;
+      }
+
+      id = R.id.idIBSend;
+      ImageButton idIBSend = ViewBindings.findChildViewById(rootView, id);
+      if (idIBSend == null) {
+        break missingId;
+      }
+
+      id = R.id.idLLMessage;
+      LinearLayout idLLMessage = ViewBindings.findChildViewById(rootView, id);
+      if (idLLMessage == null) {
+        break missingId;
+      }
+
+      id = R.id.idRVChats;
+      RecyclerView idRVChats = ViewBindings.findChildViewById(rootView, id);
+      if (idRVChats == null) {
+        break missingId;
+      }
+
       id = R.id.t;
       TextView t = ViewBindings.findChildViewById(rootView, id);
       if (t == null) {
@@ -85,7 +130,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavigationView, flFragment,
-          t);
+          idEdtMessage, idIBSend, idLLMessage, idRVChats, t);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

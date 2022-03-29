@@ -4,12 +4,20 @@
         "source": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/res/layout/fragment_business.xml"
     },
     {
+        "merged": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bot_msg.xml",
+        "source": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/res/layout/bot_msg.xml"
+    },
+    {
         "merged": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_education.xml",
         "source": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/res/layout/fragment_education.xml"
+    },
+    {
+        "merged": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/user_msg.xml",
+        "source": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/res/layout/user_msg.xml"
     },
     {
         "merged": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bottomnav.xml",
