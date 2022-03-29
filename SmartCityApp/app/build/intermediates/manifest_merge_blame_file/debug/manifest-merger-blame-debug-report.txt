@@ -14,20 +14,20 @@
 11-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:5:5-67
 11-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:6:5-97
+12-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:6:5-81
 12-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:6:22-78
 13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-13-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:7:5-95
+13-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:7:5-79
 13-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:7:22-76
 14    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-14-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:8:5-105
+14-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:8:5-89
 14-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:8:22-86
-15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
-15-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:10:5-76
-15-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:10:22-73
-16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
-16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:12:5-79
+15-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:10:5-76
+16-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:10:22-73
 17
 18    <uses-feature
 18-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
@@ -46,17 +46,17 @@
 26    </queries>
 27
 28    <uses-permission android:name="android.permission.WAKE_LOCK" />
-28-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:24:5-68
-28-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:24:22-65
-29    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-29-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:25:5-79
-29-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:25:22-76
-30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-30-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:26:5-110
-30-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:26:22-107
+28-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:25:5-68
+28-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:25:22-65
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:26:22-107
+30    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+30-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/5f593d67e9c3af0dd0c1bf03e65681fa/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:25:5-79
+30-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/5f593d67e9c3af0dd0c1bf03e65681fa/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:25:22-76
 31
 32    <application
-32-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:10:5-46:19
+32-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:10:5-52:19
 33        android:name="com.example.smartcityapp.VolleyApplication"
 33-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:11:9-42
 34        android:allowBackup="true"
@@ -76,199 +76,493 @@
 42        android:testOnly="true"
 43        android:theme="@style/Theme.SmartCityApp" >
 43-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:17:9-50
-44
-45        <!--
-46             TODO: Before you run your application, you need a Google Maps API key.
-47
-48             To get one, follow the directions here:
-49
-50                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-51
-52             Once you have your API key (it starts with "AIza"), define a new property in your
-53             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-54             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-55        -->
-56        <meta-data
-56-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:30:9-32:71
-57            android:name="com.google.android.geo.API_KEY"
-57-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:31:13-58
-58            android:value="AIzaSyCYKIKheo-kxVkwr8Aq3468SbhIfXm_-C4" />
-58-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:32:13-68
-59
-60        <activity
-60-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:34:9-42:20
-61            android:name="com.example.smartcityapp.MainActivity2"
-61-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:35:13-42
-62            android:exported="true" >
-62-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:36:13-36
-63            <intent-filter>
-63-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:37:13-41:29
-64                <action android:name="android.intent.action.MAIN" />
-64-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:38:17-69
-64-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:38:25-66
+44        <activity
+44-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:18:9-20:40
+45            android:name="com.example.smartcityapp.Register"
+45-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:19:13-37
+46            android:exported="false" />
+46-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:20:13-37
+47        <activity
+47-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:21:9-24:63
+48            android:name="com.example.smartcityapp.ui.login.RegisterActivity"
+48-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:22:13-54
+49            android:exported="false"
+49-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:23:13-37
+50            android:label="@string/title_activity_register" />
+50-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:24:13-60
+51        <!--
+52             TODO: Before you run your application, you need a Google Maps API key.
+53
+54             To get one, follow the directions here:
+55
+56                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+57
+58             Once you have your API key (it starts with "AIza"), define a new property in your
+59             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+60             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+61        -->
+62        <meta-data
+62-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:36:9-38:71
+63            android:name="com.google.android.geo.API_KEY"
+63-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:37:13-58
+64            android:value="AIzaSyCYKIKheo-kxVkwr8Aq3468SbhIfXm_-C4" />
+64-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:38:13-68
 65
-66                <category android:name="android.intent.category.LAUNCHER" />
-66-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:40:17-77
-66-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:40:27-74
-67            </intent-filter>
-68        </activity>
-69        <activity
-69-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:43:9-45:48
-70            android:name="com.example.smartcityapp.MainActivity"
-70-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:44:13-41
-71            android:exported="true" />
-71-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:45:13-36
-72        <activity
-72-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:14:9-20:20
-73            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-73-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:15:13-91
-74            android:exported="false"
-74-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:16:13-37
-75            android:label="@string/places_autocomplete_label"
-75-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:17:13-62
-76            android:theme="@style/PlacesAutocompleteOverlay"
-76-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:18:13-61
-77            android:windowSoftInputMode="adjustResize" >
-77-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:19:13-55
-78        </activity> <!-- Needs to be explicitly declared on P+ -->
-79        <uses-library
-79-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
-80            android:name="org.apache.http.legacy"
-80-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
-81            android:required="false" />
-81-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
-82
-83        <service
-83-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:28:9-34:19
-84            android:name="com.google.firebase.components.ComponentDiscoveryService"
-84-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:29:13-84
-85            android:directBootAware="true"
-85-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:35:13-43
-86            android:exported="false" >
-86-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:30:13-37
-87            <meta-data
-87-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:31:13-33:85
-88                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-88-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:32:17-139
-89                android:value="com.google.firebase.components.ComponentRegistrar" />
-89-->[com.google.android.gms:play-services-measurement-api:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e66b9ff69abbf2fae0001a8ef44bf22d/transformed/play-services-measurement-api-20.1.1/AndroidManifest.xml:33:17-82
-90            <meta-data
-90-->[com.google.firebase:firebase-installations:17.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/a244c7a647fb8cbe2af4c1683430ff41/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
-91                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-91-->[com.google.firebase:firebase-installations:17.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/a244c7a647fb8cbe2af4c1683430ff41/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
-92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[com.google.firebase:firebase-installations:17.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/a244c7a647fb8cbe2af4c1683430ff41/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
-93        </service>
-94
-95        <provider
-95-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
-96            android:name="com.google.firebase.provider.FirebaseInitProvider"
-96-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:27:13-77
-97            android:authorities="com.example.smartcityapp.firebaseinitprovider"
-97-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:28:13-72
-98            android:directBootAware="true"
-98-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:29:13-43
-99            android:exported="false"
-99-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:30:13-37
-100            android:initOrder="100" />
-100-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:31:13-36
-101
-102        <activity
-102-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-103-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-104            android:exported="false"
-104-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-105-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-106
-107        <receiver
-107-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:29:9-33:20
-108            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-108-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:30:13-85
-109            android:enabled="true"
-109-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:31:13-35
-110            android:exported="false" >
-110-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:32:13-37
-111        </receiver>
-112
-113        <service
-113-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:35:9-38:40
-114            android:name="com.google.android.gms.measurement.AppMeasurementService"
-114-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:36:13-84
-115            android:enabled="true"
-115-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:37:13-35
-116            android:exported="false" />
-116-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:38:13-37
-117        <service
-117-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:39:9-43:72
-118            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-118-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:40:13-87
-119            android:enabled="true"
-119-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:41:13-35
-120            android:exported="false"
-120-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:42:13-37
-121            android:permission="android.permission.BIND_JOB_SERVICE" />
-121-->[com.google.android.gms:play-services-measurement:20.1.1] /Users/arjunkavungal/.gradle/caches/transforms-3/e25edad10ce5e16641e248e9e65ff60b/transformed/play-services-measurement-20.1.1/AndroidManifest.xml:43:13-69
-122
-123        <meta-data
-123-->[com.google.android.gms:play-services-basement:18.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5cb1c2f3a9956547f63a12c148d9c18e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
-124            android:name="com.google.android.gms.version"
-124-->[com.google.android.gms:play-services-basement:18.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5cb1c2f3a9956547f63a12c148d9c18e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
-125            android:value="@integer/google_play_services_version" />
-125-->[com.google.android.gms:play-services-basement:18.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5cb1c2f3a9956547f63a12c148d9c18e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
-126
-127        <provider
-127-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-128            android:name="androidx.startup.InitializationProvider"
-128-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-129            android:authorities="com.example.smartcityapp.androidx-startup"
-129-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-130            android:exported="false" >
-130-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-131            <meta-data
-131-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-132                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-132-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-133                android:value="androidx.startup" />
-133-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-134            <meta-data
-134-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/d6fcd513de5e420bc60fb06646fc8f5d/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-135                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-135-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/d6fcd513de5e420bc60fb06646fc8f5d/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-136                android:value="androidx.startup" />
-136-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/d6fcd513de5e420bc60fb06646fc8f5d/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-137        </provider>
-138
-139        <service
-139-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:29:9-35:19
-140            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-140-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:30:13-103
-141            android:exported="false" >
-141-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:31:13-37
-142            <meta-data
-142-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:32:13-34:39
-143                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-143-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:33:17-94
-144                android:value="cct" />
-144-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:34:17-36
-145        </service>
-146        <service
-146-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:26:9-30:19
-147            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-147-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:27:13-117
-148            android:exported="false"
-148-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:28:13-37
-149            android:permission="android.permission.BIND_JOB_SERVICE" >
-149-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:29:13-69
-150        </service>
-151
-152        <receiver
-152-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:32:9-34:40
-153            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-153-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:33:13-132
-154            android:exported="false" />
-154-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:34:13-37
-155    </application>
-156
-157</manifest>
+66        <activity
+66-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:40:9-48:20
+67            android:name="com.example.smartcityapp.MainActivity2"
+67-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:41:13-42
+68            android:exported="true" >
+68-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:42:13-36
+69            <intent-filter>
+69-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:43:13-47:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:44:17-69
+70-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:44:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:46:17-77
+72-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:46:27-74
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:49:9-51:39
+76            android:name="com.example.smartcityapp.MainActivity"
+76-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:50:13-41
+77            android:exported="true" />
+77-->/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:51:13-36
+78
+79        <meta-data
+79-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:16:9-18:69
+80            android:name="com.google.android.gms.version"
+80-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:17:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:18:13-66
+82        <meta-data
+82-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:19:9-21:63
+83            android:name="com.facebook.sdk.ApplicationId"
+83-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:20:13-58
+84            android:value="@string/facebook_application_id" />
+84-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:21:13-60
+85
+86        <activity
+86-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:23:9-27:61
+87            android:name="com.firebase.ui.auth.KickoffActivity"
+87-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:24:13-64
+88            android:exported="false"
+88-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:25:13-37
+89            android:label=""
+89-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:26:13-29
+90            android:theme="@style/FirebaseUI.Transparent" />
+90-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:27:13-58
+91        <activity
+91-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:28:9-32:61
+92            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+92-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:29:13-76
+93            android:exported="false"
+93-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:30:13-37
+94            android:label=""
+94-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:31:13-29
+95            android:theme="@style/FirebaseUI.Transparent" />
+95-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:32:13-58
+96        <activity
+96-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:33:9-37:61
+97            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+97-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:34:13-86
+98            android:exported="false"
+98-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:35:13-37
+99            android:label=""
+99-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:36:13-29
+100            android:theme="@style/FirebaseUI.Transparent" />
+100-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:37:13-58
+101        <activity
+101-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:38:9-42:58
+102            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+102-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:39:13-81
+103            android:exported="false"
+103-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:40:13-37
+104            android:label="@string/fui_title_recover_password_activity"
+104-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:41:13-72
+105            android:windowSoftInputMode="adjustResize" />
+105-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:42:13-55
+106        <activity
+106-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:43:9-47:58
+107            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+107-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:44:13-71
+108            android:exported="false"
+108-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:45:13-37
+109            android:label="@string/fui_sign_in_default"
+109-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:46:13-56
+110            android:windowSoftInputMode="adjustResize" />
+110-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:47:13-55
+111        <activity
+111-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:48:9-52:77
+112            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+112-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:49:13-71
+113            android:exported="false"
+113-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:50:13-37
+114            android:label="@string/fui_sign_in_with_phone_number"
+114-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:51:13-66
+115            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+115-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:52:13-74
+116        <activity
+116-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:53:9-57:58
+117            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+117-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:54:13-76
+118            android:exported="false"
+118-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:55:13-37
+119            android:label="@string/fui_title_welcome_back_idp_prompt"
+119-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:56:13-70
+120            android:windowSoftInputMode="adjustResize" />
+120-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:57:13-55
+121        <activity
+121-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:58:9-62:58
+122            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+122-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:59:13-83
+123            android:exported="false"
+123-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:60:13-37
+124            android:label="@string/fui_title_welcome_back_password_prompt"
+124-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:61:13-75
+125            android:windowSoftInputMode="adjustResize" />
+125-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:62:13-55
+126        <activity
+126-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:63:9-67:58
+127            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+127-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:64:13-84
+128            android:exported="false"
+128-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:65:13-37
+129            android:label="@string/fui_title_welcome_back_password_prompt"
+129-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:66:13-75
+130            android:windowSoftInputMode="adjustResize" />
+130-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:67:13-55
+131        <activity
+131-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:68:9-73:58
+132            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+132-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:69:13-82
+133            android:exported="false"
+133-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:70:13-37
+134            android:label=""
+134-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:71:13-29
+135            android:theme="@style/FirebaseUI.Transparent"
+135-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:72:13-58
+136            android:windowSoftInputMode="adjustResize" />
+136-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:73:13-55
+137        <activity
+137-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:74:9-78:58
+138            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+138-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:75:13-88
+139            android:exported="false"
+139-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:76:13-37
+140            android:label="@string/fui_sign_in_default"
+140-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:77:13-56
+141            android:windowSoftInputMode="adjustResize" />
+141-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:78:13-55
+142        <activity
+142-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:79:9-82:65
+143            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+143-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:80:13-80
+144            android:exported="false"
+144-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:81:13-37
+145            android:label="@string/fui_default_toolbar_title" />
+145-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:82:13-62
+146        <activity
+146-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:83:9-87:48
+147            android:name="com.facebook.FacebookActivity"
+147-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:84:13-57
+148            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+148-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:85:13-96
+149            android:label="@string/app_name" />
+149-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:86:13-45
+150        <activity
+150-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:88:9-100:20
+151            android:name="com.facebook.CustomTabActivity"
+151-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:89:13-58
+152            android:exported="true" >
+152-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:90:13-36
+153            <intent-filter>
+153-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:92:13-99:29
+154                <action android:name="android.intent.action.VIEW" />
+154-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:93:17-69
+154-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:93:25-66
+155
+156                <category android:name="android.intent.category.DEFAULT" />
+156-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:95:17-76
+156-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:95:27-73
+157                <category android:name="android.intent.category.BROWSABLE" />
+157-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:96:17-78
+157-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:96:27-75
+158
+159                <data android:scheme="@string/facebook_login_protocol_scheme" />
+159-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:98:17-81
+159-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:98:23-78
+160            </intent-filter>
+161        </activity>
+162
+163        <provider
+163-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:102:9-106:38
+164            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+164-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:103:13-79
+165            android:authorities="com.example.smartcityapp.authuiinitprovider"
+165-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:104:13-70
+166            android:exported="false"
+166-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:105:13-37
+167            android:initOrder="90" />
+167-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:106:13-35
+168
+169        <activity
+169-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:14:9-20:20
+170            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+170-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:15:13-91
+171            android:exported="false"
+171-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:16:13-37
+172            android:label="@string/places_autocomplete_label"
+172-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:17:13-62
+173            android:theme="@style/PlacesAutocompleteOverlay"
+173-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:18:13-61
+174            android:windowSoftInputMode="adjustResize" >
+174-->[com.google.android.libraries.places:places:2.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/31623f25c13907d5b58b5b3a6c73baf8/transformed/places-2.5.0/AndroidManifest.xml:19:13-55
+175        </activity> <!-- Needs to be explicitly declared on P+ -->
+176        <uses-library
+176-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+177            android:name="org.apache.http.legacy"
+177-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+178            android:required="false" />
+178-->[com.google.android.gms:play-services-maps:18.0.2] /Users/arjunkavungal/.gradle/caches/transforms-3/30fcb929ece94db2da4c65cdc4c681ff/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+179
+180        <activity
+180-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+181            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+181-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+182            android:excludeFromRecents="true"
+182-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+183            android:exported="true"
+183-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+184            android:launchMode="singleTask"
+184-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+185            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+185-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+186            <intent-filter>
+186-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+187                <action android:name="android.intent.action.VIEW" />
+187-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:93:17-69
+187-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:93:25-66
+188
+189                <category android:name="android.intent.category.DEFAULT" />
+189-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:95:17-76
+189-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:95:27-73
+190                <category android:name="android.intent.category.BROWSABLE" />
+190-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:96:17-78
+190-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:96:27-75
+191
+192                <data
+192-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:98:17-81
+193                    android:host="firebase.auth"
+194                    android:path="/"
+195                    android:scheme="genericidp" />
+195-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:98:23-78
+196            </intent-filter>
+197        </activity>
+198        <activity
+198-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+199            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+199-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+200            android:excludeFromRecents="true"
+200-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+201            android:exported="true"
+201-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+202            android:launchMode="singleTask"
+202-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+203-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+204            <intent-filter>
+204-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+205                <action android:name="android.intent.action.VIEW" />
+205-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:93:17-69
+205-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:93:25-66
+206
+207                <category android:name="android.intent.category.DEFAULT" />
+207-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:95:17-76
+207-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:95:27-73
+208                <category android:name="android.intent.category.BROWSABLE" />
+208-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:96:17-78
+208-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:96:27-75
+209
+210                <data
+210-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:98:17-81
+211                    android:host="firebase.auth"
+212                    android:path="/"
+213                    android:scheme="recaptcha" />
+213-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:98:23-78
+214            </intent-filter>
+215        </activity>
+216
+217        <service
+217-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
+218            android:name="com.google.firebase.components.ComponentDiscoveryService"
+218-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:65:13-84
+219            android:directBootAware="true"
+219-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+220            android:exported="false" >
+220-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
+221            <meta-data
+221-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+222                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+222-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+223                android:value="com.google.firebase.components.ComponentRegistrar" />
+223-->[com.google.firebase:firebase-auth:21.0.3] /Users/arjunkavungal/.gradle/caches/transforms-3/d55c1c78d27dbdb4bcd1ab089225225c/transformed/firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+224            <meta-data
+224-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/5f593d67e9c3af0dd0c1bf03e65681fa/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:31:13-33:85
+225                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+225-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/5f593d67e9c3af0dd0c1bf03e65681fa/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:32:17-139
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/5f593d67e9c3af0dd0c1bf03e65681fa/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:33:17-82
+227            <meta-data
+227-->[com.google.firebase:firebase-installations:17.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/a244c7a647fb8cbe2af4c1683430ff41/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+228                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+228-->[com.google.firebase:firebase-installations:17.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/a244c7a647fb8cbe2af4c1683430ff41/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[com.google.firebase:firebase-installations:17.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/a244c7a647fb8cbe2af4c1683430ff41/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+230        </service>
+231
+232        <activity
+232-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/1257957db8781efc7ab2fc8e076823e5/transformed/play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+233            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+233-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/1257957db8781efc7ab2fc8e076823e5/transformed/play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+234            android:excludeFromRecents="true"
+234-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/1257957db8781efc7ab2fc8e076823e5/transformed/play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+235            android:exported="false"
+235-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/1257957db8781efc7ab2fc8e076823e5/transformed/play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+236            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+236-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/1257957db8781efc7ab2fc8e076823e5/transformed/play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+237        <!--
+238            Service handling Google Sign-In user revocation. For apps that do not integrate with
+239            Google Sign-In, this service will never be started.
+240        -->
+241        <service
+241-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/1257957db8781efc7ab2fc8e076823e5/transformed/play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+242            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+242-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/1257957db8781efc7ab2fc8e076823e5/transformed/play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+243            android:exported="true"
+243-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/1257957db8781efc7ab2fc8e076823e5/transformed/play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+244            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+244-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/1257957db8781efc7ab2fc8e076823e5/transformed/play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+245            android:visibleToInstantApps="true" />
+245-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/1257957db8781efc7ab2fc8e076823e5/transformed/play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+246
+247        <activity
+247-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+248            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+248-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+249            android:exported="false"
+249-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+250            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+250-->[com.google.android.gms:play-services-base:18.0.1] /Users/arjunkavungal/.gradle/caches/transforms-3/ae624f1769e7162d0562c1678973a71f/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+251
+252        <receiver
+252-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:29:9-33:20
+253            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+253-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:30:13-85
+254            android:enabled="true"
+254-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:31:13-35
+255            android:exported="false" >
+255-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:32:13-37
+256        </receiver>
+257
+258        <service
+258-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:35:9-38:40
+259            android:name="com.google.android.gms.measurement.AppMeasurementService"
+259-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:36:13-84
+260            android:enabled="true"
+260-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:37:13-35
+261            android:exported="false" />
+261-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:38:13-37
+262        <service
+262-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:39:9-43:72
+263            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+263-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:40:13-87
+264            android:enabled="true"
+264-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:41:13-35
+265            android:exported="false"
+265-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:42:13-37
+266            android:permission="android.permission.BIND_JOB_SERVICE" />
+266-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/eb864c08d284af7a84df0d4471138d6d/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:43:13-69
+267
+268        <provider
+268-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+269            android:name="com.google.firebase.provider.FirebaseInitProvider"
+269-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+270            android:authorities="com.example.smartcityapp.firebaseinitprovider"
+270-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+271            android:directBootAware="true"
+271-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+272            android:exported="false"
+272-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+273            android:initOrder="100" />
+273-->[com.google.firebase:firebase-common:20.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/5ced87cc8c3fc85e14e580c2940a8695/transformed/firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+274        <provider
+274-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+275            android:name="androidx.startup.InitializationProvider"
+275-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+276            android:authorities="com.example.smartcityapp.androidx-startup"
+276-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+277            android:exported="false" >
+277-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+278            <meta-data
+278-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+279                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+279-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+280                android:value="androidx.startup" />
+280-->[androidx.emoji2:emoji2:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2ca2bacc87836650c9274f7e02fa4569/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+281            <meta-data
+281-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/d6fcd513de5e420bc60fb06646fc8f5d/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+282                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+282-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/d6fcd513de5e420bc60fb06646fc8f5d/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+283                android:value="androidx.startup" />
+283-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/arjunkavungal/.gradle/caches/transforms-3/d6fcd513de5e420bc60fb06646fc8f5d/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+284        </provider>
+285
+286        <uses-library
+286-->[androidx.window:window:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/ea201fa5b72234c509682fc343fcd30d/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+287            android:name="androidx.window.extensions"
+287-->[androidx.window:window:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/ea201fa5b72234c509682fc343fcd30d/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+288            android:required="false" />
+288-->[androidx.window:window:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/ea201fa5b72234c509682fc343fcd30d/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+289        <uses-library
+289-->[androidx.window:window:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/ea201fa5b72234c509682fc343fcd30d/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+290            android:name="androidx.window.sidecar"
+290-->[androidx.window:window:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/ea201fa5b72234c509682fc343fcd30d/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+291            android:required="false" />
+291-->[androidx.window:window:1.0.0] /Users/arjunkavungal/.gradle/caches/transforms-3/ea201fa5b72234c509682fc343fcd30d/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+292
+293        <service
+293-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:29:9-35:19
+294            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+294-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:30:13-103
+295            android:exported="false" >
+295-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:31:13-37
+296            <meta-data
+296-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:32:13-34:39
+297                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+297-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:33:17-94
+298                android:value="cct" />
+298-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/6410d9e70cda11e73a39808f945b977e/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:34:17-36
+299        </service>
+300        <service
+300-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:26:9-30:19
+301            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+301-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:27:13-117
+302            android:exported="false"
+302-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:28:13-37
+303            android:permission="android.permission.BIND_JOB_SERVICE" >
+303-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:29:13-69
+304        </service>
+305
+306        <receiver
+306-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:32:9-34:40
+307            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+307-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:33:13-132
+308            android:exported="false" />
+308-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/arjunkavungal/.gradle/caches/transforms-3/640116a7f5485982467495f9a74f06ac/transformed/transport-runtime-2.2.3/AndroidManifest.xml:34:13-37
+309    </application>
+310
+311</manifest>
