@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/build/intermediates/merged_res/debug/layout_activity_register.xml.flat",
+        "source": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/res/layout/activity_register.xml"
+    },
+    {
         "merged": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/build/intermediates/merged_res/debug/drawable_ic_baseline_business_24.xml.flat",
         "source": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/res/drawable/ic_baseline_business_24.xml"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/build/intermediates/merged_res/debug/drawable_ic_baseline_next_plan_24.xml.flat",
         "source": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/res/drawable/ic_baseline_next_plan_24.xml"
+    },
+    {
+        "merged": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/build/intermediates/merged_res/debug/navigation_nav_graph.xml.flat",
+        "source": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/res/navigation/nav_graph.xml"
     },
     {
         "merged": "/Users/arjunkavungal/SmartCityApp/SmartCityApp/app/build/intermediates/merged_res/debug/menu_bottom_app_bar.xml.flat",
