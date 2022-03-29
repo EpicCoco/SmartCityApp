@@ -40,6 +40,10 @@ public class MainActivity2 extends AppCompatActivity {
         button = (Button) findViewById(R.id.button2);
         et = findViewById(R.id.username);
         p = findViewById(R.id.password);
+        Button r = (Button) findViewById(R.id.r);
+        r.setOnClickListener((view -> {
+            startActivity(new Intent(MainActivity2.this,Register.class));
+        }));
         button.setOnClickListener(view -> {
             String email = et.getText().toString();
             String password = p.getText().toString();

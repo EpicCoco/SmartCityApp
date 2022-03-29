@@ -3504,6 +3504,7 @@ int id position 0x7f08019e
 int id postLayout 0x7f08019f
 int id progress_circular 0x7f0801a0
 int id progress_horizontal 0x7f0801a1
+int id r 0x7f08025f
 int id radio 0x7f0801a2
 int id ratio 0x7f0801a3
 int id rectangles 0x7f0801a4
@@ -3613,6 +3614,7 @@ int id text 0x7f080208
 int id text2 0x7f080209
 int id textEnd 0x7f08020a
 int id textInputLayout 0x7f08025a
+int id textInputLayout2 0x7f080260
 int id textSpacerNoButtons 0x7f08020b
 int id textSpacerNoTitle 0x7f08020c
 int id textStart 0x7f08020d

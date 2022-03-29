@@ -36,10 +36,12 @@ id mapView2
 id more
 id nav_graph
 id password
+id r
 id search
 id setting
 id t
 id textInputLayout
+id textInputLayout2
 id textView
 id tourism
 id u

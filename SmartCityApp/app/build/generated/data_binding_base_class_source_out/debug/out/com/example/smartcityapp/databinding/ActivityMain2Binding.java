@@ -13,6 +13,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.smartcityapp.R;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -28,17 +29,26 @@ public final class ActivityMain2Binding implements ViewBinding {
   public final TextInputEditText password;
 
   @NonNull
+  public final Button r;
+
+  @NonNull
+  public final TextInputLayout textInputLayout2;
+
+  @NonNull
   public final TextView textView;
 
   @NonNull
   public final TextInputEditText username;
 
   private ActivityMain2Binding(@NonNull ConstraintLayout rootView, @NonNull Button button2,
-      @NonNull TextInputEditText password, @NonNull TextView textView,
+      @NonNull TextInputEditText password, @NonNull Button r,
+      @NonNull TextInputLayout textInputLayout2, @NonNull TextView textView,
       @NonNull TextInputEditText username) {
     this.rootView = rootView;
     this.button2 = button2;
     this.password = password;
+    this.r = r;
+    this.textInputLayout2 = textInputLayout2;
     this.textView = textView;
     this.username = username;
   }
@@ -82,6 +92,18 @@ public final class ActivityMain2Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.r;
+      Button r = ViewBindings.findChildViewById(rootView, id);
+      if (r == null) {
+        break missingId;
+      }
+
+      id = R.id.textInputLayout2;
+      TextInputLayout textInputLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (textInputLayout2 == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
@@ -94,8 +116,8 @@ public final class ActivityMain2Binding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMain2Binding((ConstraintLayout) rootView, button2, password, textView,
-          username);
+      return new ActivityMain2Binding((ConstraintLayout) rootView, button2, password, r,
+          textInputLayout2, textView, username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
