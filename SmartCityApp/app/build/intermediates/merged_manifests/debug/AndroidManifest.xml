@@ -47,10 +47,7 @@
         <activity
             android:name="com.example.smartcityapp.Register"
             android:exported="false" />
-        <activity
-            android:name="com.example.smartcityapp.ui.login.RegisterActivity"
-            android:exported="false"
-            android:label="@string/title_activity_register" />
+
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 

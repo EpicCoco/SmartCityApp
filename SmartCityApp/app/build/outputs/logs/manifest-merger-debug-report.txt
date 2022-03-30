@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-56:12
+ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-53:12
 MERGED from [androidx.databinding:viewbinding:7.1.2] /Users/arjunkavungal/.gradle/caches/transforms-3/3cb64d9ea19bc6be74ae468628b0d599/transformed/viewbinding-7.1.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.4.1] /Users/arjunkavungal/.gradle/caches/transforms-3/6211550afd40a27334206d1843e714df/transformed/navigation-ui-2.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:2:1-109:12
@@ -101,20 +101,20 @@ MERGED from [com.android.volley:volley:1.2.1] /Users/arjunkavungal/.gradle/cache
 MERGED from [org.tensorflow:tensorflow-lite:2.3.0] /Users/arjunkavungal/.gradle/caches/transforms-3/181bc257c1c1421ef194612acb86d95c/transformed/tensorflow-lite-2.3.0/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/arjunkavungal/.gradle/caches/transforms-3/c4a1351e296a6cde8c49a6f7f26d66f7/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/1f7b8510db319499d58d2e0b7f856ac2/transformed/transport-api-2.2.0/AndroidManifest.xml:15:1-22:12
-INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-56:12
+		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-53:12
 		INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-56:12
+		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:1-53:12
 		INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:2:11-69
@@ -159,7 +159,7 @@ ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidMa
 	android:name
 		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:8:22-86
 application
-ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:10:5-54:19
+ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:10:5-51:19
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] /Users/arjunkavungal/.gradle/caches/transforms-3/2d427647f25bf898515ea6505821624e/transformed/firebase-ui-auth-7.2.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/arjunkavungal/.gradle/caches/transforms-3/73aabcf6eaf165e1c2c2321712ab0401/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
@@ -256,42 +256,34 @@ ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidMa
 		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:22:13-37
 	android:name
 		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:21:13-37
-activity#com.example.smartcityapp.ui.login.RegisterActivity
-ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:23:9-26:63
-	android:label
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:26:13-60
-	android:exported
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:25:13-37
-	android:name
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:24:13-54
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:38:9-40:71
+ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:35:9-37:71
 	android:value
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:40:13-68
+		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:37:13-68
 	android:name
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:39:13-58
+		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:36:13-58
 activity#com.example.smartcityapp.MainActivity2
-ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:42:9-50:20
+ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:39:9-47:20
 	android:exported
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:44:13-36
+		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:41:13-36
 	android:name
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:43:13-42
+		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:40:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:45:13-49:29
+ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:42:13-46:29
 action#android.intent.action.MAIN
-ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:46:17-69
+ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:43:17-69
 	android:name
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:46:25-66
+		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:48:17-77
+ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:45:17-77
 	android:name
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:48:27-74
+		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:45:27-74
 activity#com.example.smartcityapp.MainActivity
-ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:51:9-53:39
+ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:48:9-50:39
 	android:exported
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:53:13-36
+		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:50:13-36
 	android:name
-		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:52:13-41
+		ADDED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml:49:13-41
 uses-sdk
 INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/arjunkavungal/SmartCityApp/SmartCityApp/app/src/main/AndroidManifest.xml
